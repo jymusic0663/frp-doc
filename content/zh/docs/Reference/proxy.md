@@ -52,7 +52,7 @@ description: >
 
 | 参数 | 类型 | 说明 | 是否必须 | 默认值 | 可选值 | 备注 |
 | :--- | :---: | :--- | :---: | :---: | :--- | :--- |
-| remote_port | int | 服务端绑定的端口 | 是 | | | 用户访问此端口的请求会被转发到 local_ip:local_port |
+| bind_udp_port | int | 服务端绑定的端口 | 是 | | | 用户访问此端口的请求会被转发到 local_ip:local_port |
 
 ### HTTP
 
